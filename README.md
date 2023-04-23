@@ -10,6 +10,7 @@
 ## Tech
 
 - Python: 
+  - https://github.com/jackfrued/Python-100-Days
 - Queue/Jobs
   - https://kueue.sigs.k8s.io/
   - https://conductor.netflix.com/
