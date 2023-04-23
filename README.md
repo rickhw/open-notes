@@ -11,6 +11,7 @@
 
 - Python: 
   - https://github.com/jackfrued/Python-100-Days
+  - https://fastapi.tiangolo.com/zh/tutorial/
 - Queue/Jobs
   - https://kueue.sigs.k8s.io/
   - https://conductor.netflix.com/
