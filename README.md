@@ -12,15 +12,21 @@
 - Python: 
   - https://github.com/jackfrued/Python-100-Days
   - https://fastapi.tiangolo.com/zh/tutorial/
-- Queue/Jobs
-  - https://kueue.sigs.k8s.io/
-  - https://conductor.netflix.com/
 - OSQuery: https://www.osquery.io/
-- https://min.io/
 - https://web.dev/ttfb/
 - IAM 實作: https://github.com/marmotedu/iam
-- https://apisix.apache.org/zh/
 
+## Managed Services on K8s
+
+- Orcheastra/Jobs
+  - https://kueue.sigs.k8s.io/
+  - https://conductor.netflix.com/
+- Storage
+  - https://min.io/
+- API Gateway
+  - https://apisix.apache.org/zh/
+- Database on K8s
+  - https://vitess.io/
 
 ---
 # Test
