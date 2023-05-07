@@ -27,6 +27,7 @@
   - https://apisix.apache.org/zh/
 - Database on K8s
   - https://vitess.io/
+- Scheduler Worload for K8s: https://foxutech.medium.com/kube-green-shuts-down-your-k8s-few-resources-when-not-in-use-69d7be6f584
 
 ---
 # Test
