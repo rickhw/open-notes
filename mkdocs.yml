@@ -1,0 +1,74 @@
+# nice yaml formatter: https://mtp.tools/formatters/yaml-formatter
+
+site_name: General Software Development Guideline
+site_url: "http://lds.guru/docs/"
+repo_url: "https://github.com/rickhw/open-notes"
+edit_uri: "edit/master/docs/"
+docs_dir: "docs"
+
+# ----------------------------------------------------------------
+
+nav:
+  - "WebAPI Guideline":
+      - "Overview": "webapi/overview.md"
+      # - "API Architecutre": "webapi/api-arch.md"
+      # - "API Auth Protocol": "webapi/auth-proto.md"
+      - "REST API Design Guideline":
+          - "Introduction": "webapi/restful-guideline/introduction.md"
+          - "Resource": "webapi/restful-guideline/resource.md"
+          - "Naming Conventions": "webapi/restful-guideline/naming.md"
+          - "Data": "webapi/restful-guideline/data.md"
+          - "Standard Methods": "webapi/restful-guideline/standard-methods.md"
+          - "Request and Response": "webapi/restful-guideline/request-response.md"
+          - "Status Code": "webapi/restful-guideline/status-code.md"
+          - "Idempotency": "webapi/restful-guideline/idempotency.md"
+          - "Versioning": "webapi/restful-guideline/versioning.md"
+          - "Authentication and Authorization": "webapi/restful-guideline/auth.md"
+          - "Pagination": "webapi/restful-guideline/pagination.md"
+          - "Documentation": "webapi/restful-guideline/documentation.md"
+          # - "Glossary": "webapi/restful-guideline/glossary.md"
+
+
+# ----------------------------------------------------------------
+
+theme:
+  name: material
+  palette:
+    primary: "light blue"
+    accent: "indigo"
+  features:
+    - navigation.tabs
+    - content.tabs.link
+#    - navigation.tabs.sticky
+
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+  - admonition
+  - attr_list
+#  - pymdownx.superfences
+#  - pymdownx.tabbed:
+#      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+# ----------------------------------------------------------------
+
+extra:
+  version:
+    provider: mike
+# markdown_extensions:
+#   - admonition
+#   - codehilite:
+#       guess_lang: false
+#       linenums: true
+#   - toc:
+#       permalink: true
+
+#   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
+#   - pymdownx.tabbed
+
+#   # https://squidfunk.github.io/mkdocs-material/reference/meta-tags/
+#   - meta
