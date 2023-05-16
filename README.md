@@ -28,10 +28,11 @@
 - Database on K8s
   - https://vitess.io/
 - Scheduler Worload for K8s: https://foxutech.medium.com/kube-green-shuts-down-your-k8s-few-resources-when-not-in-use-69d7be6f584
-
+- [KubeDB](https://kubedb.com/)
+- https://medium.com/appscode/monitor-mariadb-with-grafana-dashboard-in-amazon-elastic-kubernetes-service-amazon-eks-fa6cffff8626
 ---
 # Test
 
 - https://docs.google.com/spreadsheets/d/11ZeP5cmvnPn77-dr0pfz-N1eHsIMxQuYPIlAVoB_xtU/edit?usp=sharing
 - https://docs.google.com/presentation/d/1KnMH2c053jerlxMafz51Xp4E0vIIuFAOwgHnv-qBreo/edit?usp=sharing
-- https://drive.google.com/drive/folders/12kc6grS-UaXXN0LNPS1UgFYg1bGE1WYb?usp=sharing
+
