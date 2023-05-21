@@ -15,9 +15,13 @@
 - OSQuery: https://www.osquery.io/
 - https://web.dev/ttfb/
 - IAM 實作: https://github.com/marmotedu/iam
+
+## API Design
+
 - Async API design
   - https://www.ruanyifeng.com/blog/2018/12/async-api-design.html
   - https://octo-woapi.github.io/cookbook/asynchronous-api.html
+- https://blog.bytebytego.com/p/api-design?utm_source=substack&utm_medium=email
 
 ## Managed Services on K8s
 
