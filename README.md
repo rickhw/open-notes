@@ -42,4 +42,6 @@
 
 - https://docs.google.com/spreadsheets/d/11ZeP5cmvnPn77-dr0pfz-N1eHsIMxQuYPIlAVoB_xtU/edit?usp=sharing
 - https://docs.google.com/presentation/d/1KnMH2c053jerlxMafz51Xp4E0vIIuFAOwgHnv-qBreo/edit?usp=sharing
+- https://docs.google.com/document/d/1tLb7jr_oqya248GxFG4OkHZXCr3lH4vR/edit?usp=sharing&ouid=103318818239551363944&rtpof=true&sd=true
+- https://docs.google.com/spreadsheets/d/1o3x7Jp5M3fxZepTU-kXodrSyS1BWF0eZ/edit?usp=sharing&ouid=103318818239551363944&rtpof=true&sd=true
 
