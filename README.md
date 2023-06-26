@@ -22,6 +22,7 @@
   - https://www.ruanyifeng.com/blog/2018/12/async-api-design.html
   - https://octo-woapi.github.io/cookbook/asynchronous-api.html
 - https://blog.bytebytego.com/p/api-design?utm_source=substack&utm_medium=email
+- https://drive.google.com/file/d/1iPnKxeS37w9vhOp_ilPowqtEfueIQePE/view?usp=sharing
 
 ## Managed Services on K8s
 
