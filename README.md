@@ -24,6 +24,12 @@
 - https://blog.bytebytego.com/p/api-design?utm_source=substack&utm_medium=email
 - https://drive.google.com/file/d/1iPnKxeS37w9vhOp_ilPowqtEfueIQePE/view?usp=sharing
 
+## Slide
+- https://docs.google.com/presentation/d/1eE8Dppyq_vc7wV5jVG1fFE3Gbl_7OaMofkuYRkYOlfw/edit?usp=sharing
+- https://docs.google.com/presentation/d/1cybJJZpxVTFriRUtBlr5fvMeHyiJDHVJRvivL89Wswg/edit?usp=sharing
+- https://docs.google.com/presentation/d/1U37cJU9dz4o7el6dk3GAcdgtOGLfcAwIKBNaDDbT-9Q/edit?usp=sharing
+
+
 ## Managed Services on K8s
 
 - Orcheastra/Jobs
