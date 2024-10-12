@@ -16,8 +16,6 @@
     - Ubuntu 24.04 Server
     - sysbeanch
 
-> additional: M1-Max (Mabbook Pro)
-
 
 ## Benchmark - Intel i9
 
@@ -52,3 +50,6 @@ I/O: Random Read (Throughput, MiB/s) | 2,184 | 619 | 77 |
 I/O: Random Write (Throughput, MiB/s) |  1,456 | 412 | 51 |
 
 
+## download
+
+- https://www.techspot.com/downloads/2755-vmware-fusion-mac.html
