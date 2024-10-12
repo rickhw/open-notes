@@ -19,7 +19,7 @@
 > additional: M1-Max (Mabbook Pro)
 
 
-## Beanchmark
+## Benchmark
 
 Item \ Virtualization | Host Machine (Intel i9) | VMWare Fusion (on Intel i9)  | UTM  (on Intel i9) | UTM (M1) | Host Machine (M1)  |
 ---------------|---------------:|--------------------:|------------------:|--------------------:|--------------------:|
