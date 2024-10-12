@@ -19,17 +19,36 @@
 > additional: M1-Max (Mabbook Pro)
 
 
-## Benchmark
+## Benchmark - Intel i9
 
-Item \ Virtualization | Host Machine (Intel i9) | VMWare Fusion (on Intel i9)  | UTM  (on Intel i9) | UTM (M1) | Host Machine (M1)  |
----------------|---------------:|--------------------:|------------------:|--------------------:|--------------------:|
-CPU speed (events per second) | 32,651,216 |  9,808 | 7,401 | 50,184 | 88,322,749 |
-Memory Read: IOPS | 14,823,089 | 17,106,884 | 41,102 | 7,959,773 | 5,029,233 |
-Memory Read: Throughput (MiB/sec) | 14,475| 16,705 | 40 | 7,773 | 4,911 |
-Memory Write: IOPS | 15,586,652 | 17,934,555 | 40,925 | 5,185,093 | 4,920,948 |
-Memory Write: Throughput (MiB/sec) |15,221  |  17,514 | 39 | 5,063 | 4,805 |
-I/O: Write (MiB/sec) | 364 | 506  | 226 | 1,791 | 1,961 |
-I/O: Random Read (IOPS) | 31,680  | 56,941 | 1,233 | 4,970 | 139,804 |
-I/O: Random Write (IOPS) | 21,120| 37,960 | 822 | 3,313 | 93,203 |
-I/O: Random Read (Throughput, MiB/s) | 495  | 889 | 19 | 77 | 2,184 |
-I/O: Random Write (Throughput, MiB/s) | 330 | 593 | 12 | 51 | 1,456 |
+Item \ Virtualization | Host Machine | VMWare Fusion  | UTM  |
+---------------|---------------:|--------------------:|------------------:|
+CPU speed (events per second) | 32,651,216 |  9,808 | 7,401 | 
+Memory Read: IOPS | 14,823,089 | 17,106,884 | 41,102 | 
+Memory Read: Throughput (MiB/sec) | 14,475| 16,705 | 40 | 
+Memory Write: IOPS | 15,586,652 | 17,934,555 | 40,925 | 
+Memory Write: Throughput (MiB/sec) |15,221  |  17,514 | 39 |
+I/O: Write (MiB/sec) | 364 | 506  | 226 | 
+I/O: Random Read (IOPS) | 31,680  | 56,941 | 1,233 | 
+I/O: Random Write (IOPS) | 21,120| 37,960 | 822 | 
+I/O: Random Read (Throughput, MiB/s) | 495  | 889 | 19 | 
+I/O: Random Write (Throughput, MiB/s) | 330 | 593 | 12 | 
+
+
+
+## Benchmark - MacBook M1
+
+Item \ Virtualization |  Host Machine  | VMWare Fusion | UTM | 
+---------------|---------------:|--------------------:|------------------:|
+CPU speed (events per second) | 88,322,749 | 63,873 | 50,184
+Memory Read: IOPS | 5,029,233 |7,952,600 | 7,959,773
+Memory Read: Throughput (MiB/sec) |   4,911 | 7,766 | 7,773 |
+Memory Write: IOPS |   4,920,948 | 4,825,686 | 5,185,093 |
+Memory Write: Throughput (MiB/sec) | 4,805 | 4,712 | 5,063 | 
+I/O: Write (MiB/sec) | 1,961 | 1,630 | 1,791 |
+I/O: Random Read (IOPS) |  139,804 | 39,626 | 4,970 |
+I/O: Random Write (IOPS) |  93,203 | 26,417 | 3,313 |
+I/O: Random Read (Throughput, MiB/s) | 2,184 | 619 | 77 | 
+I/O: Random Write (Throughput, MiB/s) |  1,456 | 412 | 51 |
+
+
