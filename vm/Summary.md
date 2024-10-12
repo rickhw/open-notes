@@ -1,5 +1,5 @@
 
-## Host Machine
+## Pre-condition
 
 - Hardware (Host Machine):
     - Intel: 3.6 GHz 8-Core Intel Core i9
