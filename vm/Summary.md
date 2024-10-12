@@ -1,17 +1,18 @@
 
 ## Host Machine
 
-- Hardware:
+- Hardware (Host Machine):
     - Intel: 3.6 GHz 8-Core Intel Core i9
     - 64 GB 2667 MHz DDR4
+    -
 - Software:
     - Version 15.0.1
 - OS & Tools
-    - VMWare Fusion
-    - UTM
+    - Host Machine: macOS 15.0.1 (24A348)
+    - VMWare Fusion: Player Version 12.2.5 (20904517)
+    - UTM: Version 4.5.4 (100)
     - Ubuntu 24.04 Server
     - sysbeanch
-
 
 > additional: M1-Max (Mabbook Pro)
 
