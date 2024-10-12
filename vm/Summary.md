@@ -29,4 +29,4 @@ I/O: Write (MiB/sec) | 506  | 226 | 1791
 I/O: Random Read (IOPS) | 56941 | 1233 | 4970
 I/O: Random Write (IOPS) | 37960 | 822 | 3313
 I/O: Random Read (Throughput, MiB/s) | 889 | 19 | 77
-I/O: Random Read (Throughput, MiB/s) | 593 | 12 | 51
+I/O: Random Write (Throughput, MiB/s) | 593 | 12 | 51
