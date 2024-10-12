@@ -13,6 +13,9 @@
     - sysbeanch
 
 
+> additional: M1-Max (Mabbook Pro)
+
+
 ## Beanchmark
 
 Virtualization | VMWare Fusion | UTM                | UTM (M1)
