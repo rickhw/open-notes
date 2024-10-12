@@ -17,7 +17,7 @@
 
 ## Beanchmark
 
-Virtualization | VMWare Fusion | UTM                | UTM (M1)
+Item \ Virtualization | VMWare Fusion | UTM                | UTM (M1)
 ---------------|---------------|--------------------|------------------
 CPU speed (events per second) |  9808 | 7401 | 50184
 Memory Read: IOPS | 17106884 | 41102 | 7959773
