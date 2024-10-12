@@ -131,7 +131,7 @@ Threads fairness:
 
 
 ```bash
-sysbench --threads=8 --time=60 --file-total-size=5G fileio prepare
+~$ sysbench --threads=8 --time=60 --file-total-size=5G fileio prepare
 sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
 
 128 files, 40960Kb each, 5120Mb total
