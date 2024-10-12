@@ -20,7 +20,7 @@
 
 Virtualization | VMWare Fusion | UTM                | UTM (M1)
 ---------------|---------------|--------------------|------------------
-CPU speed (events per second) |  9808 :| 7401 :| 50184
+CPU speed (events per second) |  9808 | 7401 | 50184
 Memory Read: IOPS | 17106884 | 41102 | 7959773
 Memory Read: Throughput (MiB/sec) | 16705 | 40 | 7773
 Memory Write: IOPS | 17934555 | 40925 | 5185093
