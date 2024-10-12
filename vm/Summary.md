@@ -1,4 +1,19 @@
 
+## Host Machine
+
+- Hardware:
+    - Intel: 3.6 GHz 8-Core Intel Core i9
+    - 64 GB 2667 MHz DDR4
+- Software:
+    - Version 15.0.1
+- OS & Tools
+    - VMWare Fusion
+    - UTM
+    - Ubuntu 24.04 Server
+    - sysbeanch
+
+
+## Beanchmark
 
 Virtualization | VMWare Fusion | UTM
 ---------------|---------------|-----------------
