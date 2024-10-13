@@ -123,7 +123,7 @@ Threads fairness:
 
 
 
-## I/O create
+## Disk I/O: Write
 
 ```bash
 ~$ sysbench --threads=8 --time=60 --file-total-size=5G fileio prepare
@@ -148,7 +148,7 @@ Creating file test_file.127
 ```
 
 
-## I/O random R/W
+## Disk I/O: Random R/W
 
 ```bash
 ~$ sysbench --threads=8 --time=60 --file-total-size=5G --file-test-mode=rndrw fileio run
