@@ -164,7 +164,7 @@ Creating file test_file.127
 
 
 ```bash
-~$ sysbench --threads=8 --time=60 --file-total-size=5G --file-test-mode=rndrw fileio run
+~$ sysbench --threads=8 --tilme=60 --file-total-size=5G --file-test-mode=rndrw fileio run
 sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
 
 Running the test with following options:
