@@ -82,7 +82,7 @@ apt install vim
 
 安装成功之后，再次修改 pg_hba.conf 文件，进入最后部分，添加如下：
 
-```
+```bash
 host   replication      replica       192.168.205.72/32          trust   #允许  205.72 机器使用 replica 用户来复制
 host   replication      replica       172.17.0.0/24           trust   # 允許 docker 網路都可以做副本
 ```
@@ -91,7 +91,7 @@ host   replication      replica       172.17.0.0/24           trust   # 允許 d
 
 修改 postgresql.conf
 
-```
+```bash
 #------------------------------------------------------------------------------
 # REPLICATION from MASTER NODE
 #------------------------------------------------------------------------------
