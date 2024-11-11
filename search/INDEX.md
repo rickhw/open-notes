@@ -4,6 +4,7 @@
     - log
 - meili search: by rust
 - manticore search
+- Typesense
 
 
 

@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  meilisearch:
+    image: getmeili/meilisearch:v1.1.1 # 使用 Meilisearch 最新版，請依實際最新版本調整
+    environment:
+      MEILI_MASTER_KEY: "your_master_key" # 設定 Meilisearch 的主密鑰
+    ports:
+      - "7700:7700"
+
+  grafana:
+    image: grafana/grafana:10.1.0 # 使用 Grafana 最新版，請依實際最新版本調整
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: "admin" # 設定 Grafana 管理員密碼
+    ports:
+      - "3000:3000"
+    depends_on:
+      - meilisearch

@@ -1,0 +1,59 @@
+version: '3.8'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.6.1
+    environment:
+      - node.name=es01
+      - discovery.type=single-node
+      - xpack.security.enabled=false  # 關閉安全設置
+      - xpack.security.http.ssl.enabled=false
+      - xpack.security.transport.ssl.enabled=false
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.6.1
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - xpack.security.enabled=false  # 關閉安全設置
+    depends_on:
+      - elasticsearch
+    ports:
+      - "5601:5601"
+
+  grafana:
+    image: grafana/grafana:latest
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin  # 管理員密碼，建議開發使用簡單密碼
+    ports:
+      - "3000:3000"
+    depends_on:
+      - elasticsearch
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.6.1
+    user: root  # 確保有權限訪問文件
+    volumes:
+      - /var/log/asimov:/var/log/app  # 替換為實際的日誌檔案路徑
+      - ./filebeat_config/filebeat.yml:/usr/share/filebeat/filebeat.yml
+    depends_on:
+      - elasticsearch
+
+volumes:
+  es_data:
+    driver: local
+  grafana_data:
+    driver: local
+  filebeat_config:
+    driver: local
+

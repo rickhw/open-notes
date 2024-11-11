@@ -1,0 +1,13 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/asimov/*.log  # 指向應用程式的日誌檔案位置
+    fields:
+      log_type: application
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+  index: "app-logs-%{+yyyy.MM.dd}"  # 使用日期格式作為索引名稱
+  protocol: "http"
+  ssl.enabled: false  # 關閉 SSL
