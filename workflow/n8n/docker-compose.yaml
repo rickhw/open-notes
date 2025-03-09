@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    ports:
+      - "5678:5678" # 將 n8n 的服務映射到本機 5678 端口
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true # 啟用基本身份驗證
+      - N8N_BASIC_AUTH_USER=admin  # 設定用戶名稱
+      - N8N_BASIC_AUTH_PASSWORD=admin123 # 設定密碼
+      - N8N_HOST=n8n.local # 如果需要，將本地主機名稱設為特定值
+      - WEBHOOK_URL=http://localhost:5678/ # 設定 Webhook URL
+      - N8N_PORT=5678 # n8n 的內部端口
+    volumes:
+      - ./n8n_data:/home/node/.n8n # 將數據保存在本地
+    restart: unless-stopped
