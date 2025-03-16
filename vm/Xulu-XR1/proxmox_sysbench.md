@@ -246,3 +246,27 @@ Threads fairness:
     events (avg/stddev):           192709.2500/1252.40
     execution time (avg/stddev):   59.9187/0.00
 ```
+
+
+
+---
+
+## Network Througput
+
+```bash
+Selecting previously unselected package iperf.
+(Reading database ... 153124 files and directories currently installed.)
+Preparing to unpack .../iperf_2.1.9+dfsg-1_amd64.deb ...
+Unpacking iperf (2.1.9+dfsg-1) ...
+Setting up iperf (2.1.9+dfsg-1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for ufw (0.36.2-6) ...
+ubuntu@gtlab101:~$ iperf -c 192.168.2.237
+------------------------------------------------------------
+Client connecting to 192.168.2.237, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 192.168.2.251 port 58260 connected with 192.168.2.237 port 5001 (icwnd/mss/irtt=14/1448/514)
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0014 sec  52.5 GBytes  45.1 Gbits/sec
+```
