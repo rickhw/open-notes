@@ -4,6 +4,7 @@ https://xulu.store/products/xr1-max
 
 ## Overall
 
+```bash
 root@gtlab01:~# inxi -Fxz
 System:
   Kernel: 6.8.12-4-pve arch: x86_64 bits: 64 compiler: gcc v: 12.2.0 Console: pty pts/0
@@ -65,11 +66,12 @@ Sensors:
 Info:
   Processes: 293 Uptime: 1h 0m Memory: 62.2 GiB used: 7.62 GiB (12.3%) Init: systemd
   target: graphical (5) Compilers: N/A Packages: 768 Shell: Bash v: 5.2.15 inxi: 3.3.26
-
+```
 
 
 ## CPU
 
+```bash
 root@gtlab01:~# lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -136,10 +138,11 @@ Vulnerabilities:
                           -on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
   Srbds:                  Not affected
   Tsx async abort:        Not affected
-
+```
 
 ## Memory
 
+```bash
 root@gtlab01:~# free -h
                total        used        free      shared  buff/cache   available
 Mem:            62Gi       7.6Gi        54Gi        48Mi       955Mi        54Gi
@@ -191,10 +194,12 @@ Namespace 1 Size/Capacity:          2,000,398,934,016 [2.00 TB]
 Namespace 1 Formatted LBA Size:     512
 Namespace 1 IEEE EUI-64:            486834 0000000000
 Local Time is:                      Sun Mar  9 08:28:07 2025 CST
-
+```
 
 ## Motherboard and BIOS
 
+
+```bash
 root@gtlab01:~# dmidecode -t system
 
 Getting SMBIOS data from sysfs.
@@ -252,3 +257,4 @@ BIOS Language Information
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
+```
