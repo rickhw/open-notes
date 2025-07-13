@@ -90,3 +90,6 @@ sudo netplan apply
 5. **重新生成 `netplan` 設定**
 
 這樣應該能夠確保你的克隆 VM 獲得新的 IP 🎯🚀
+
+
+sudo hostnamectl set-hostname gtapp301

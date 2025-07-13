@@ -13,6 +13,7 @@ sdk install gradle
 sdk install maven
 
 
+##---------
 # filebeat
 # 匯入 Elastic 公鑰
 curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elastic-archive-keyring.gpg
@@ -46,3 +47,9 @@ logging:
 
 sudo mkdir -p /var/log/myapp
 sudo chown -R filebeat:filebeat /var/log/myapp
+
+
+
+##---------
+# node exporter
+

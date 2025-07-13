@@ -172,8 +172,6 @@ Initializing worker threads...
 
 Threads started!
 
-
-
 File operations:
     reads/s:                      4550.64
     writes/s:                     3033.76
@@ -199,3 +197,4 @@ Threads fairness:
     execution time (avg/stddev):   59.9553/0.00
 
 ```
+

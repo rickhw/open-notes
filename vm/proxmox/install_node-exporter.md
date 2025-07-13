@@ -7,18 +7,18 @@
 #### 1️⃣ 建立使用者（非必要，但建議）
 
 ```bash
-sudo useradd --no-create-home --shell /usr/sbin/nologin node_exporter
+useradd --no-create-home --shell /usr/sbin/nologin node_exporter
 ```
 
 ---
 
 #### 2️⃣ 下載 Node Exporter 最新版本
 
-前往 Prometheus 官網或 GitHub Releases 查找最新版本。這邊以 v1.8.1 為例（未來可自行替換成最新版）：
+前往 Prometheus 官網或 GitHub Releases 查找最新版本。這邊以 v1.9.1 為例（未來可自行替換成最新版）：
 
 ```bash
 cd /tmp
-wget https://github.com/prometheus/node_exporter/releases/download/v1.8.1/node_exporter-1.8.1.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.9.1/node_exporter-1.9.1.linux-amd64.tar.gz
 ```
 
 ---
@@ -26,14 +26,14 @@ wget https://github.com/prometheus/node_exporter/releases/download/v1.8.1/node_e
 #### 3️⃣ 解壓縮並移動執行檔
 
 ```bash
-tar xvf node_exporter-1.8.1.linux-amd64.tar.gz
-sudo mv node_exporter-1.8.1.linux-amd64/node_exporter /usr/local/bin/
+tar xvf node_exporter-1.9.1.linux-amd64.tar.gz
+mv node_exporter-1.9.1.linux-amd64/node_exporter /usr/local/bin/
 ```
 
 確認可執行權限：
 
 ```bash
-sudo chmod +x /usr/local/bin/node_exporter
+chmod +x /usr/local/bin/node_exporter
 ```
 
 ---
@@ -41,7 +41,7 @@ sudo chmod +x /usr/local/bin/node_exporter
 #### 4️⃣ 建立 Systemd 服務單元檔案
 
 ```bash
-sudo nano /etc/systemd/system/node_exporter.service
+vi /etc/systemd/system/node_exporter.service
 ```
 
 填入以下內容：
@@ -67,16 +67,16 @@ WantedBy=default.target
 #### 5️⃣ 啟動並設定開機啟動
 
 ```bash
-sudo systemctl daemon-reexec
-sudo systemctl daemon-reload
-sudo systemctl enable node_exporter
-sudo systemctl start node_exporter
+systemctl daemon-reexec
+systemctl daemon-reload
+systemctl enable node_exporter
+systemctl start node_exporter
 ```
 
 確認是否成功啟動：
 
 ```bash
-sudo systemctl status node_exporter
+systemctl status node_exporter
 ```
 
 ---

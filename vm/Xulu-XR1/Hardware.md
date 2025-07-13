@@ -151,10 +151,12 @@ root@gtlab01:~# cat /proc/meminfo
 MemTotal:       65223248 kB
 MemFree:        56984008 kB
 MemAvailable:   57280884 kB
+```
 
 
 ## Disk
 
+```bash
 root@gtlab01:~# lsblk -o NAME,SIZE,MODEL
 NAME                          SIZE MODEL
 nvme0n1                       1.8T Fanxiang S630 2TB
