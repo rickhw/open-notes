@@ -71,6 +71,7 @@ systemctl daemon-reexec
 systemctl daemon-reload
 systemctl enable node_exporter
 systemctl start node_exporter
+systemctl status node_exporter
 ```
 
 確認是否成功啟動：
