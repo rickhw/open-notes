@@ -1,7 +1,7 @@
 #! /bin/bash
 # ubuntu 24.04, java application server
 
-sudo apt install vim git curl zip unzip htop btop -y
+sudo apt install vim git curl zip unzip htop btop dnsutils -y
 
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
