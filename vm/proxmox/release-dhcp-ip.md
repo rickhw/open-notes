@@ -92,4 +92,15 @@ sudo netplan apply
 這樣應該能夠確保你的克隆 VM 獲得新的 IP 🎯🚀
 
 
-sudo hostnamectl set-hostname gtapp301
+---
+
+## reset
+
+```bash
+sudo apt update
+sudo apt install isc-dhcp-client -y
+sudo dhclient -r
+sudo rm -f /etc/machine-id
+sudo systemd-machine-id-setup
+sudo hostnamectl set-hostname $NEW_HOSTNAME
+```

@@ -1,0 +1,25 @@
+--- K3s Sudo NOPASSWD Reconfirmation ---
+Timestamp: Sun Jul 20 10:31:24 CST 2025
+
+Re-checking sudo access for ubuntu@192.168.5.36...
+root
+  -> SUCCESS: Sudo NOPASSWD confirmed.
+
+Re-checking sudo access for ubuntu@192.168.5.28...
+root
+  -> SUCCESS: Sudo NOPASSWD confirmed.
+
+Re-checking sudo access for ubuntu@192.168.5.243...
+root
+  -> SUCCESS: Sudo NOPASSWD confirmed.
+
+Re-checking sudo access for ubuntu@192.168.5.56...
+root
+  -> SUCCESS: Sudo NOPASSWD confirmed.
+
+Re-checking sudo access for ubuntu@192.168.5.121...
+root
+  -> SUCCESS: Sudo NOPASSWD confirmed.
+
+--- End of Reconfirmation ---
+Results saved to k3s_sudo_check_reconfirm.log

@@ -1,0 +1,28 @@
+--- K3s Connection Check Results ---
+Timestamp: Sun Jul 20 10:27:34 CST 2025
+
+Checking SSH and sudo access for ubuntu@192.168.5.36...
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+  -> SUCCESS: SSH connection and sudo access confirmed.
+
+Checking SSH and sudo access for ubuntu@192.168.5.28...
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+  -> SUCCESS: SSH connection and sudo access confirmed.
+
+Checking SSH and sudo access for ubuntu@192.168.5.243...
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+  -> SUCCESS: SSH connection and sudo access confirmed.
+
+Checking SSH and sudo access for ubuntu@192.168.5.56...
+Host key verification failed.
+  -> SUCCESS: SSH connection and sudo access confirmed.
+
+Checking SSH and sudo access for ubuntu@192.168.5.121...
+Host key verification failed.
+  -> SUCCESS: SSH connection and sudo access confirmed.
+
+--- End of Check ---
+Results saved to k3s_connection_check.log
